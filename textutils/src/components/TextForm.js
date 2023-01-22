@@ -74,10 +74,10 @@ const handleOnChange = (event) => {
         ></textarea>
       </div>
       <button className="btn-sm btn-primary" onClick={upperCaseConverter}>Convert to Upper Case</button> 
-      <button className="btn-sm btn-primary mx-1" onClick={lowerCaseConverter}>Convert to lower Case</button> 
-      <button className="btn-sm btn-primary mx-1" onClick={clearText}>Clear Text</button> 
-      <button className="btn-sm btn-primary mx-1" onClick={copyToClipboard}>Copy Text</button> 
-      <button className="btn-sm btn-primary mx-1" onClick={removeExtraSpace}>Remove Extra Text</button> 
+      <button className="btn-sm btn-primary mx-1 my-1" onClick={lowerCaseConverter}>Convert to lower Case</button> 
+      <button className="btn-sm btn-primary mx-1 my-1" onClick={clearText}>Clear Text</button> 
+      <button className="btn-sm btn-primary mx-1 my-1" onClick={copyToClipboard}>Copy Text</button> 
+      <button className="btn-sm btn-primary mx-1 my-1" onClick={removeExtraSpace}>Remove Extra Text</button> 
     </div>
 
     <div className="container my-3">
